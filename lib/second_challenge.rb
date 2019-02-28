@@ -6,6 +6,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
+groceries.collect each do |group, item|
+  item
+end
+
   #code your solution here!
 
   
